@@ -15,7 +15,7 @@ const words = "Tap into your workforce hidden potential and take productivity to
 
 export default function Home() {
   return (
-    <div className="h-dvh w-full dark:bg-black bg-white dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex items-center justify-center">
+    
     <div className="h-dvh w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="white" />
       <div className="text-center mx-auto relative z-10 w-full pt-20 md:pt-0">
@@ -35,6 +35,6 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </div>
   );
 }
+
