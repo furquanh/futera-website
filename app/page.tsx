@@ -2,6 +2,14 @@ import { Spotlight } from "@/components/ui/Spotlight";
 import { Button } from "@/components/ui/moving-borders";
 import Image from "next/image";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'FuteraAI',
+  description: 'Knoweldge Backed Intelligence',
+  metadataBase: new URL('https://futera.vercel.app/'),
+};
  
 const words = "Tap into your workforce hidden potential and take productivity to levels unseen"
 
